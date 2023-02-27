@@ -1,0 +1,296 @@
+:root {
+  --main-background-color: #ffffff;
+  --iris-color: #4d5ae5;
+  --main-text-color: #2e2f42;
+  --address-items-description-color: #434455;
+  --hover-focus-color: #404bbf;
+  --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+/* -----------------------------  Header  ----------------------------------- */
+
+.header {
+  padding: 24px 0;
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
+}
+.header-logo span {
+  color: var(--main-text-color);
+}
+.header-list {
+}
+.header-item {
+}
+.header-item-page {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-item-page:hover,
+.header-item-page:focus {
+  color: var(--hover-focus-color);
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-item-mail {
+  color: var(--address-items-description-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address-item-mail:hover,
+.header-address-item-mail:focus {
+  color: var(--hover-focus-color);
+}
+.header-address-item-tel {
+  color: var(--address-items-description-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address-item-tel:hover,
+.header-address-item-tel:focus {
+  color: var(--hover-focus-color);
+}
+
+/* ------------------- Hero ----------------------------*/
+.hero {
+  background: var(--main-text-color);
+}
+.hero-title {
+  width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-background-color);
+  margin-bottom: 48px;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-background-color);
+  text-align: center;
+  background: var(--iris-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--hover-focus-color);
+}
+
+/* ------------------- Features ----------------------------*/
+.features {
+  padding: 177px 0 120px;
+}
+.features-list {
+}
+.features-item {
+}
+.features-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  margin-bottom: 8px;
+}
+.features-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--address-items-description-color);
+}
+
+/* -----------------------------  What are we doing?  ----------------------------------- */
+
+.doing {
+  padding-bottom: 120px;
+}
+.doing-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  margin-bottom: 72px;
+}
+.doing-list {
+}
+.doing-item {
+}
+
+/* -----------------------------  Our Team  ----------------------------------- */
+
+.team {
+  padding: 120px 0;
+  background: var(--cloud-color);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  margin-bottom: 72px;
+}
+.team-list {
+}
+.team-item {
+  background: var(--main-background-color);
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  margin-bottom: 8px;
+}
+.team-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--address-items-description-color);
+}
+.card-content {
+  padding: 32px 16px;
+}
+
+/* -----------------------------  Portfolio page  ----------------------------------- */
+.portfolio-buttons-gallery {
+}
+.portfolio-buttons-list {
+}
+.portfolio-buttons-item {
+}
+.portfolio-btn {
+  font-family: inherit;
+  background: var(--cloud-color);
+  border: 1px solid var(--cornflower-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--main-background-color);
+  background: var(--hover-focus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.portfolio-gallery-list {
+}
+.portfolio-gallery-item {
+}
+.portfolio-gallery-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.portfolio-gallery-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--address-items-description-color);
+}
+
+/* -----------------------------  Footer  ----------------------------------- */
+
+.footer {
+  padding: 100px 0;
+  background: var(--main-text-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
+}
+.footer-logo span {
+  color: var(--cloud-color);
+}
+.footer-text {
+  margin-top: 16px;
+  width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflower-color);
+}
