@@ -49,7 +49,13 @@ img {
 .header {
   padding: 24px 0;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway";
@@ -61,13 +67,19 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
+  margin-right: 76px;
 }
 .header-logo span {
   color: var(--main-text-color);
 }
 .header-list {
+  display: flex;
 }
 .header-item {
+  margin-right: 40px;
+}
+.header-item:last-child {
+  margin-right: 0;
 }
 .header-item-page {
   font-weight: 500;
@@ -83,8 +95,13 @@ img {
 .header-address {
 }
 .header-address-list {
+  display: flex;
 }
 .header-address-item {
+  margin-left: 40px;
+}
+.header-address-item:first-child {
+  margin-left: 0;
 }
 .header-address-item-mail {
   color: var(--address-items-description-color);
